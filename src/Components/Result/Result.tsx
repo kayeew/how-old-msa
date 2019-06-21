@@ -1,5 +1,6 @@
 import * as React from 'react'
 import Loader from 'react-loader-spinner'
+import './Result.css'
 
 interface IProps{
   result:string

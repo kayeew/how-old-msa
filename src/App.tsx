@@ -1,6 +1,8 @@
 import * as React from 'react';
 import DropArea from './Components/DropArea/DropArea';
+import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
+import NavBar from './Components/NavBar/NavBar';
 import Result from './Components/Result/Result';
 
 interface IState {
@@ -22,9 +24,12 @@ class App extends React.Component<{}, IState>{
   public render() {
     return (
       <div>
+          <NavBar />
           <Header />
           <DropArea setResults={this.resultstate} />
           <Result result={this.state.result} filelength={this.state.filelength} />
+
+          <Footer />
       </div>
     )
   }

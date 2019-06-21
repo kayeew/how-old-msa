@@ -6,6 +6,15 @@ h1 {
   font-size: 150px;
 }
 
+p {
+  font-size: 50px;
+  cursor: pointer;
+}
+
+p:hover {
+  text-decoration: underline;
+}
+
 .dropZone {
   margin-top: 20px;
   margin-left: 5%;
@@ -13,8 +22,7 @@ h1 {
   padding-top: 5px;
   padding-bottom: 0px;
   height: 51vh;
-  background-color: #202125;
-  border-radius: 20px;
+  background-color: #448AFF;
   color: white;
 }
 
@@ -36,4 +44,8 @@ h1 {
   justify-content: center;
   flex-direction: column;
   text-align: center;
+}
+
+.Icon {
+  padding-right: 20px;
 }

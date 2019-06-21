@@ -75,8 +75,14 @@ export default class DropArea extends React.Component<IProps, IState>{
                             <div className="dropZoneText">
                                 {
                                     this.state.imageFiles.length > 0 ?
-                                        <div>{this.state.imageFiles.map((file) => <img className="image1" key={file.name} src={file.preview} />)}</div> :
-                                        <p>Try dropping some files here, or click to select files to upload.</p>
+                                        <div>
+                                            {this.state.imageFiles.map((file) => <img className="image1" key={file.name} src={file.preview} />)}
+                                        </div> :
+                                        <p>
+                                            <i className="fa fa-cloud-upload Icon" /> 
+                                             <strong>Drag and drop</strong> files here <br /> 
+                                             or click to <strong>browse</strong> files to upload.
+                                        </p>
                                 }
                             </div>
                         </ReactDropzone>
