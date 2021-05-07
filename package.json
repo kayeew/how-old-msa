@@ -8,7 +8,7 @@
     "@types/react-dropzone": "^4.2.0",
     "braces": ">=2.3.1",
     "emotion-theming": "^10.0.7",
-    "handlebars": ">=4.1.2",
+    "handlebars": ">=4.7.7",
     "js-yaml": ">=3.13.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
